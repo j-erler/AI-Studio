@@ -1,3 +1,4 @@
+using AIStudio.Tools.ChatArchive;
 using AIStudio.Tools.PluginSystem;
 
 // ReSharper disable MemberCanBePrivate.Global
@@ -88,6 +89,7 @@ public static class FileTypes
     public static readonly FileTypeFilter CERTIFICATE_BUNDLE = FileTypeFilter.Leaf(TB("Certificate bundle"), "pem", "crt", "cer");
     public static readonly FileTypeFilter EXECUTABLES = FileTypeFilter.Leaf(TB("Executable"), "exe", "app", "bin", "appimage");
     public static readonly FileTypeFilter PLUGIN_ARCHIVE = FileTypeFilter.Leaf(TB("Plugin archive"), PluginArchive.PLUGIN_FILE_EXTENSION.TrimStart('.'), "zip");
+    public static readonly FileTypeFilter CHAT_ARCHIVE = FileTypeFilter.Leaf(TB("Chat archive"), ChatArchiveFormat.FILE_EXTENSION.TrimStart('.'), "zip");
     
     /// <summary>
     /// The file types AI Studio converts using Pandoc.

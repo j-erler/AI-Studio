@@ -4270,6 +4270,111 @@ UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELCONFIDENCE::T85322
 -- Provider
 UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELCONFIDENCE::T900237532"] = "Provider"
 
+-- Import it as an additional chat
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T1010021219"] = "Import it as an additional chat"
+
+-- There are no chats to export yet.
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T1014072932"] = "There are no chats to export yet."
+
+-- Choose an archive to see what it contains before anything is imported.
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T105498974"] = "Choose an archive to see what it contains before anything is imported."
+
+-- Keep the existing chat
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T1274903302"] = "Keep the existing chat"
+
+-- Refresh
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T135637716"] = "Refresh"
+
+-- Select none
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T1371105737"] = "Select none"
+
+-- Import
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T1463683828"] = "Import"
+
+-- Created on {0} with AI Studio {1}
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T1503285113"] = "Created on {0} with AI Studio {1}"
+
+-- Your chats could not be read: {0}
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T1766061742"] = "Your chats could not be read: {0}"
+
+-- Select all
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T1794248818"] = "Select all"
+
+-- The export was stopped. No archive was created.
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T2033235970"] = "The export was stopped. No archive was created."
+
+-- {0} attachments stored outside of the chats were included.
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T2058415121"] = "{0} attachments stored outside of the chats were included."
+
+-- When a chat already exists
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T2117204104"] = "When a chat already exists"
+
+-- Choose archive
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T2164224046"] = "Choose archive"
+
+-- Please stay on this page until this is done. Leaving the settings stops the run.
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T2285446015"] = "Please stay on this page until this is done. Leaving the settings stops the run."
+
+-- Save your chats as an archive file, for example as a backup or to move them to another computer. You can read such archives back into AI Studio at any time.
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T2455050681"] = "Save your chats as an archive file, for example as a backup or to move them to another computer. You can read such archives back into AI Studio at any time."
+
+-- Temporary chats
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T2532369939"] = "Temporary chats"
+
+-- {0} chats already existed and were kept as they are.
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T2657498616"] = "{0} chats already existed and were kept as they are."
+
+-- Imported {0} chats into {1} workspaces.
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T2750065837"] = "Imported {0} chats into {1} workspaces."
+
+-- {0} attachments could not be included, because the files no longer exist.
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T2802886435"] = "{0} attachments could not be included, because the files no longer exist."
+
+-- Include attachments
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T2986529185"] = "Include attachments"
+
+-- Data Backup & Restore
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T3317700277"] = "Data Backup & Restore"
+
+-- Without attachments, the archive only holds the chat histories and stays small. The chats then refer to files which are missing on another computer.
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T3476683826"] = "Without attachments, the archive only holds the chat histories and stays small. The chats then refer to files which are missing on another computer."
+
+-- Chat {0} of {1}
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T355446621"] = "Chat {0} of {1}"
+
+-- {0} chats
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T3562573794"] = "{0} chats"
+
+-- Import {0} chats
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T3797505565"] = "Import {0} chats"
+
+-- {0} chats could not be imported.
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T3877683437"] = "{0} chats could not be imported."
+
+-- Export
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T3898821075"] = "Export"
+
+-- The import was stopped. The chats imported until then were kept.
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T3930319945"] = "The import was stopped. The chats imported until then were kept."
+
+-- Export chats
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T4010823084"] = "Export chats"
+
+-- Choose the workspaces you want to export. Everything belonging to a chat is included, attachments as well.
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T4021577897"] = "Choose the workspaces you want to export. Everything belonging to a chat is included, attachments as well."
+
+-- Exported {0} chats from {1} workspaces to: {2}
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T4050198329"] = "Exported {0} chats from {1} workspaces to: {2}"
+
+-- Export {0} chats
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T4237744286"] = "Export {0} chats"
+
+-- Select a chat archive
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T771250054"] = "Select a chat archive"
+
+-- Cancel
+UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELDATABACKUP::T900713019"] = "Cancel"
+
 -- Embedding Result
 UI_TEXT_CONTENT["AISTUDIO::COMPONENTS::SETTINGS::SETTINGSPANELEMBEDDINGS::T1387042335"] = "Embedding Result"
 
@@ -9286,6 +9391,24 @@ UI_TEXT_CONTENT["AISTUDIO::TOOLS::AUTHMETHODSV1EXTENSIONS::T810547195"] = "None"
 -- Username & Password
 UI_TEXT_CONTENT["AISTUDIO::TOOLS::AUTHMETHODSV1EXTENSIONS::T863358904"] = "Username & Password"
 
+-- Unexpected error: {0}
+UI_TEXT_CONTENT["AISTUDIO::TOOLS::CHATARCHIVE::CHATARCHIVEEXPORTER::T2350673880"] = "Unexpected error: {0}"
+
+-- This file is not a chat archive.
+UI_TEXT_CONTENT["AISTUDIO::TOOLS::CHATARCHIVE::CHATARCHIVEIMPORTER::T1673453619"] = "This file is not a chat archive."
+
+-- Unexpected error: {0}
+UI_TEXT_CONTENT["AISTUDIO::TOOLS::CHATARCHIVE::CHATARCHIVEIMPORTER::T2350673880"] = "Unexpected error: {0}"
+
+-- The content list of this archive could not be read.
+UI_TEXT_CONTENT["AISTUDIO::TOOLS::CHATARCHIVE::CHATARCHIVEIMPORTER::T315593817"] = "The content list of this archive could not be read."
+
+-- This archive was created by a newer version of AI Studio. Please update AI Studio to import it.
+UI_TEXT_CONTENT["AISTUDIO::TOOLS::CHATARCHIVE::CHATARCHIVEIMPORTER::T4098286364"] = "This archive was created by a newer version of AI Studio. Please update AI Studio to import it."
+
+-- Imported workspace
+UI_TEXT_CONTENT["AISTUDIO::TOOLS::CHATARCHIVE::CHATARCHIVEIMPORTER::T722364324"] = "Imported workspace"
+
 -- Spanish (Spain)
 UI_TEXT_CONTENT["AISTUDIO::TOOLS::COMMONLANGUAGEEXTENSIONS::T1269145091"] = "Spanish (Spain)"
 
@@ -10221,6 +10344,9 @@ UI_TEXT_CONTENT["AISTUDIO::TOOLS::RUST::FILETYPES::T3507473059"] = "Media"
 
 -- Certificate bundle
 UI_TEXT_CONTENT["AISTUDIO::TOOLS::RUST::FILETYPES::T3543954504"] = "Certificate bundle"
+
+-- Chat archive
+UI_TEXT_CONTENT["AISTUDIO::TOOLS::RUST::FILETYPES::T3600452921"] = "Chat archive"
 
 -- Source like prefix
 UI_TEXT_CONTENT["AISTUDIO::TOOLS::RUST::FILETYPES::T378481461"] = "Source like prefix"

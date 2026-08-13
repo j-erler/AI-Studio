@@ -985,7 +985,7 @@ public static class WorkspaceBehaviour
     }
 
     /// <summary>Returns the canonical storage directory for a chat identity.</summary>
-    private static string GetChatDirectory(Guid workspaceId, Guid chatId) => workspaceId == Guid.Empty
+    public static string GetChatDirectory(Guid workspaceId, Guid chatId) => workspaceId == Guid.Empty
         ? Path.Join(SettingsManager.DataDirectory, "tempChats", chatId.ToString())
         : Path.Join(SettingsManager.DataDirectory, "workspaces", workspaceId.ToString(), chatId.ToString());
 
@@ -1117,7 +1117,11 @@ public static class WorkspaceBehaviour
         }
     }
 
-    private static async Task EnsureWorkspace(Guid workspaceId, string workspaceName)
+    /// <summary>
+    /// Ensures that a workspace with the given identity exists on disk and in the cache.
+    /// An existing workspace keeps its current name.
+    /// </summary>
+    public static async Task EnsureWorkspace(Guid workspaceId, string workspaceName)
     {
         var workspacePath = Path.Join(WORKSPACE_ROOT_DIRECTORY, workspaceId.ToString());
         var workspaceNamePath = Path.Join(workspacePath, "name");
